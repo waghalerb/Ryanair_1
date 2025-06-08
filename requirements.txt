@@ -1,0 +1,5 @@
+pandas
+ryanair-py
+matplotlib
+sendgrid
+google-cloud-storage
