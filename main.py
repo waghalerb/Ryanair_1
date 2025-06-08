@@ -177,7 +177,7 @@ def create_final_html_dashboard(all_flights_df, graph_available):
     """
 
 # --- Main Cloud Function ---
-def check_flights_and_update(event, context):
+def check_flights_and_update(request):
     """This is the main function that Google Cloud Scheduler will trigger."""
     print("--- Cloud Function Triggered ---")
     previous_prices_df, history_df = pd.DataFrame(), pd.DataFrame()
